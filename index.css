@@ -1,0 +1,32 @@
+@import url(./common.css);
+
+/* 콘텐츠만 작성하는 css */
+
+.visual{
+    width: 1060px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.visual > img{
+    width: 100%;
+}
+
+.visual > figcaption{
+    background-color: white;
+    position: absolute;
+    padding: 10px 30px;
+    border-radius: 10px;
+    bottom: 30px;
+    left: 80px;
+    font-family: HYkanB;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.diary{
+    width: 1060px;
+    padding: 100px 70px;
+    margin: 0 auto;
+}
