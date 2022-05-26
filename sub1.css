@@ -1,0 +1,110 @@
+@import url(./common.css);
+
+/*  */
+
+main{
+    padding: 20px;
+}
+
+main .sec1{
+    height: 450px;
+    width: 100%;
+}
+
+main .sec1 div.tit h3{
+    color: #004796;
+    margin: 5px;
+}
+
+main .sec1 div.tit{
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 300px;
+    left: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    width: 10%;
+}
+
+main .sec1 div.tit-sub{
+    color: #666666;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*  */
+
+main .sec2{
+    margin: 100px;
+}
+
+main .sec2 .box1, .box2, .box3, .box4{
+    padding: 20px;    
+    margin: 50px;
+}
+
+main .sec2 b, h3, ul{
+    color: #004796;
+}
+
+main .sec2 .box1 p:nth-of-type(1){
+    color: #666666;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+main .sec2 ul li{
+    list-style-type:disc;
+    margin-left: 20px;
+}
+
+main .sec2 img{
+    height: 200px;
+}
+
+main .sec2 .box1 p{
+    margin-left: 20;
+}
+
+main .sec2 .box2, .box1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #666666
+}
+
+main .sec2 .box3 p{
+    order: 2;
+}
+
+main .sec2 .box3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #666666
+}
+
+main .sec2 .box3-fl,.box2-fl h3{
+    margin-top: 0;
+}
+
+main .sec2 .box4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .sec2 .box4 li{
+    color: #004796;
+    padding: 10px;
+}
+
+main .sec2 .box4 li span{
+    color: #666666;
+}
+
+
+
+
