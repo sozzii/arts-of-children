@@ -18,6 +18,8 @@ html, body{
     margin: 0;
 }
 
+p{margin: 0;}
+
 ul,li{
     list-style-type: none;
     margin: 0;
@@ -26,10 +28,9 @@ ul,li{
 
 /*  */
 
-header .visual{
+main .visual{
     margin: 0; 
     position: relative;
-    height: 1014px;
 }
 
 header > article{
@@ -47,7 +48,7 @@ header > article{
 
 header > article:hover {
     background-color: white;
-    border-bottom: 1px solid #004796;
+    border-bottom: 1px solid rgb(228, 226, 226);
 }
 
 .logo{
@@ -80,7 +81,7 @@ header > article > .nav > ul > li > a{
 header > article > .nav > ul > li > div{
     position: fixed;
     top: 99px;
-    border: 1px solid #004796;
+    border: 1px solid #eee;
     background-color: white;
     z-index: 5;
     transition: 0.5s;
@@ -135,8 +136,9 @@ footer{
 
 .foot .info{
     text-align: center;
-    color: #666666;
+    color: #666666;    
 }
+
 
 .foot .info a{
     padding: 15px;
@@ -151,6 +153,11 @@ footer{
     font-size: 10px;
 }
 
+.foot .info p{
+    margin: 10px;
+    line-height: 20px;
+}
+
 .foot .site{
     padding-right: 20px;
 }
@@ -160,6 +167,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 50px;
+    
 }
 
 .foot .site .sm-site p b{
@@ -188,7 +196,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     border: 1px solid #666666;
-    padding: 0px 15px 0px 15px;
+    padding: 10px;
 }
 
 .foot .site .sm-site .sm-in, .sm-out{
